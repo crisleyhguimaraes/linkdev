@@ -300,6 +300,9 @@ nav .menu-btn{
         justify-content: space-between;
         height: 65px;
     }
+    .space{
+        height: 10px;
+    }
     .home-img{
         
             width:100%;
@@ -427,6 +430,9 @@ nav .menu-btn{
         text-align: center;
     }
 
+    .space{
+        height: 10px;
+    }
     
     .office-number,
     .office-time{
