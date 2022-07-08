@@ -171,6 +171,11 @@ nav ul li a:hover{
     right:55px;
     font-weight: 600;
 }
+
+.space{
+    height: 250px;
+}
+
 @keyframes arrow-animation{
     0%{
         bottom: 70px;
@@ -277,10 +282,13 @@ footer{
     align-items: center;
     padding: 0px 5%;
     border-top: 1px solid rgba(167,167,167,0.2);
+    background-color:  #102fdf;
 }
+
 footer a,
 footer p{
-    color:#5e5e5e;
+    color:#ffffff;
+    
 }
 nav .menu-btn{
     display: none;

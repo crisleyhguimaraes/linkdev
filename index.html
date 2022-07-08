@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <title>LinDev Desenvolvimento</title>
+
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+<script src="https://unpkg.com/scrollreveal"></script>
+<link rel="stylesheet" href="css/contact.css"/>
 <link rel="stylesheet" href="css/style.css"/>
 <!--fav-icon-->
 <link rel="shortcut icon" href="images/fav-icon.png"/>
@@ -118,12 +122,78 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="./img/contact.svg">
+            </div>
+            <h2>Entre em contato conosco</h2>
+            <p>
+                Fale com nossos analistas, e tal tal tal
+            </p>
+            <ul class="contact__details">
+                <li>
+                <i class="uil uil-phone-times"></i>
+                <h5>(35) 3521-3224</h5>
+                </li>
+                <li>
+                <i class="uil uil-envelope"></i>
+                <h5>contato@linkdev.com.br</h5>
+                </li>
+                <li>
+                    <i class="uil uil-location-point"></i>
+                    <h5>Rua Sete de Setembro, 206  Passos-MG</h5>
+                    </li>
+            </ul>
+            <ul class="contact__socials">
+                <li> <a href="https://www.linkedin.com/in/crisleyhguimaraes/"><i class="uil uil-linkedin-alt"></i></a> </li>
+                
+                <li> <a href="https://api.whatsapp.com/send?phone=5535991828301&text=oi+Crisley%2c+estou+entrando+em+contato+atrav%c3%a9s+de+seu+portif%c3%b3lio!++"><i class="uil uil-whatsapp"></i></a> </li>
+                
+                <li> <a href="https://www.instagram.com/dicasfrontend/"><i class="uil uil-instagram"></i></a> </li>
+            </ul>
+            </aside>
+
+
+
+
+            <form action="https://formspree.io/f/mbjwvrye" method="POST" class="contact__form">
+                <div class="form__name">
+                    <input type="text" name="First Name" placeholder="Nome" required>
+                    <input type="text" name="Last Name" placeholder="Sobre nome" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Seu e-mail" required>
+                <textarea name="Message"  rows="7" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <div class="space"> </div>
+
+
+
     <!--footer------------->
     <footer>
         <a href="#">LinkDev Desenvolvimento e Cloud Computing</a>
         <p>&copy;  <script>document.write(new Date().getFullYear())</script> todos os direitos reservados<a href="" target="_blank">
             Crisley Guimarães</a></p>
     </footer>
+
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/scroll.js"></script>
 </body>
 
 </html>
