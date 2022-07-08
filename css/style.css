@@ -112,6 +112,7 @@ nav ul li a:hover{
     background-color: #5a62fd;
     transition: all ease 0.3s;
 }
+
 .timing{
     position: absolute;
     left:20%;
@@ -219,6 +220,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     margin: 20px 30px;
 }
+
 .box{
     display: flex;
     flex-direction: column;
@@ -235,7 +237,7 @@ nav ul li a:hover{
 }
 .box img{
     height:150px;
-    margin:10px;
+    margin:auto;
 }
 .box font{
     font-size: 1.5rem;

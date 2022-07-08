@@ -109,7 +109,7 @@ textarea {
   cursor: pointer;
 }
 
-img {
+.contact_img {
   width: 100%;
   display: block;
   object-fit: cover;
